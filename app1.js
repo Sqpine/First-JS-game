@@ -75,7 +75,7 @@ function start() {
                 zeroBox.classList.add('circle')
                 resultCircle[0][0] = 1
                 click++
-                checking(finish, resultCircle, circle)
+                checking(resultCircle, circle)
             } else {
                 zeroBox.classList.add('cross')
                 resultCross[0][0] = 1
@@ -285,9 +285,6 @@ function start() {
                         checked = 0
                         break
                     }
-                } else if (z === 2) {
-                    checked = 0
-                    break
                 }
                 x++
             }
