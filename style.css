@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    position: relative;
+    margin: 0;
+    background: #E7C8FF;
+}
+.field {
+    padding: 2% 10% 0;
+}
+
+.game-field {
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    width: 500px;
+    background: #A93DFF;
+    border-radius: 20%;
+}
+
+.boxes {
+    padding: 12% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxes > div {
+    margin: 2.5%;
+    width: 100px;
+    height: 100px;
+    background: #7713C7;
+    border-radius: 20%;
+}
+
+.boxes > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    outline: #E7C8FF solid 3px;
+    transition: outline-width 0.1s ease-in;
+    -moz-transition: outline-width 0.1s ease-in;
+    -webkit-transition: outline-width 0.1s ease-in;
+    -o-transition: outline-width 0.1s ease-in;
+}
+
+.game {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 70%;
+    height: 70%;
+}
+
+.game > img {
+    width: 100%;
+    height: 100%;
+}
+
+.button-game {
+    border-radius: 30px;
+    background-color: #A93DFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 10%;
+}
+.button-game:hover {
+    outline: #E7C8FF solid 3px;
+    transition: outline-width 0.1s ease-in;
+    -moz-transition: outline-width 0.1s ease-in;
+    -webkit-transition: outline-width 0.1s ease-in;
+    -o-transition: outline-width 0.1s ease-in;
+}
+.button-game:active{
+    background-color: #7713C7;
+    outline: #E7C8FF solid 0;
+    transition: outline-width 0.1s ease-in;
+    -moz-transition: outline-width 0.1s ease-in;
+    -webkit-transition: outline-width 0.1s ease-in;
+    -o-transition: outline-width 0.1s ease-in;
+}
+.button-game > button {
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    margin-block-start: 0;
+    margin-block-end: 0.67em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.circle {
+    background-image: url("images/o.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-open {
+    visibility: visible;
+}
+
+.modal-close {
+    visibility: hidden;
+}
+
+.cross {
+    background-image: url("images/x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.winner {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    background-color: rgba(65, 5, 255, 0.7);
+    text-align: center;
+    width: 100%;
+    height: 115%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.winner > h1 {
+    margin-top: 15%;
+
+}
