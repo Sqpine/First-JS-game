@@ -102,7 +102,7 @@ body {
 }
 
 .circle {
-    background-image: url("images/o.svg");
+    background-image: url("o.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .cross {
-    background-image: url("images/x.svg");
+    background-image: url("x.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
