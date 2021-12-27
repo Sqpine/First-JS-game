@@ -20,7 +20,7 @@ function modalOpen() {
     modalWindow.classList.remove('modal-close')
     modalWindow.classList.add('modal-open')
     if (!(winner === 'Draw')) {
-        modalText.innerHTML = "This our winner " + winner
+        modalText.innerHTML = "Winner is the " + winner
     } else {
         modalText.innerHTML = "Draw!"
     }
